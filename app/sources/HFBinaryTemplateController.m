@@ -9,6 +9,7 @@
 #import "HFBinaryTemplateController.h"
 #import "HFTemplateNode.h"
 #import "HFTclTemplateController.h"
+#import "HFKaitaiTemplateController.h"
 #import "HFColorRange.h"
 
 @interface NSObject (HFTemplateOutlineViewDelegate)
@@ -127,11 +128,12 @@
 }
 
 - (void)loadTemplates:(id __unused)sender {
+    NSArray* validExtensions = @[@"tcl",@"ksy"];
     NSFileManager *fm = [NSFileManager defaultManager];
     NSString *dir = self.templatesFolder;
     NSMutableArray<HFTemplateFile*> *templates = [NSMutableArray array];
     for (NSString *filename in [fm enumeratorAtPath:dir]) {
-        if ([filename.pathExtension isEqualToString:@"tcl"]) {
+        if ([validExtensions containsObject: filename.pathExtension.lowercaseString]) {
             HFTemplateFile *file = [[HFTemplateFile alloc] init];
             file.path = [dir stringByAppendingPathComponent:filename];
             file.name = [[filename lastPathComponent] stringByDeletingPathExtension];
@@ -196,7 +198,18 @@
         return;
     }
     NSString *errorMessage = nil;
-    HFTclTemplateController *templateController = [[HFTclTemplateController alloc] init];
+    
+    HFTemplateController *templateController = nil;
+    if ([self.selectedFile.path.pathExtension isEqual:@"tcl"])
+    {
+        templateController = [[HFTclTemplateController alloc] init];
+    }
+    else if ([self.selectedFile.path.pathExtension isEqual:@"ksy"])
+    {
+        templateController = [[HFKaitaiTemplateController alloc] init];
+    }
+    if (templateController == nil) return;
+    
     templateController.anchor = self.anchorPosition;
     
     // Change directory to the templates folder so "source" command can use relative paths

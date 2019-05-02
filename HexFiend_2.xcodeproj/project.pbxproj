@@ -22,6 +22,17 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		3DFE87E2227B2A5A00E7EE04 /* HFYamlDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87E1227B2A5A00E7EE04 /* HFYamlDecoder.m */; };
+		3DFE87E5227B3AF500E7EE04 /* yaml.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE87E4227B3AF500E7EE04 /* yaml.yaml */; };
+		3DFE87E8227B555500E7EE04 /* HFKsyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87E7227B555500E7EE04 /* HFKsyObject.m */; };
+		3DFE87EB227B55DF00E7EE04 /* HFKsyUserDefinedType.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87EA227B55DF00E7EE04 /* HFKsyUserDefinedType.m */; };
+		3DFE87EE227B56C500E7EE04 /* HFKsyAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87ED227B56C500E7EE04 /* HFKsyAttribute.m */; };
+		3DFE87F1227B56F700E7EE04 /* HFKsyInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87F0227B56F600E7EE04 /* HFKsyInstance.m */; };
+		3DFE87F4227B56FF00E7EE04 /* HFKsyEnum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87F3227B56FF00E7EE04 /* HFKsyEnum.m */; };
+		3DFE87F7227B573300E7EE04 /* HFKsyMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87F6227B573300E7EE04 /* HFKsyMeta.m */; };
+		3DFE87FA227B589700E7EE04 /* HFKaitaiExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87F9227B589700E7EE04 /* HFKaitaiExpression.m */; };
+		3DFE87FD227B598F00E7EE04 /* HFKsyDocumentable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE87FC227B598F00E7EE04 /* HFKsyDocumentable.m */; };
+		3DFE8801227B688200E7EE04 /* HFKaitaiTemplateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8800227B688200E7EE04 /* HFKaitaiTemplateController.m */; };
 		795F46C114BAA45D00EB2F7D /* OpenDriveWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795F46C014BAA45D00EB2F7D /* OpenDriveWindowController.m */; };
 		795F46C314BAADB600EB2F7D /* DiskArbitration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795F46C214BAADB600EB2F7D /* DiskArbitration.framework */; };
 		79E2FF201745A2B300FA8F12 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 79E2FF1F1745A2B300FA8F12 /* dsa_pub.pem */; };
@@ -399,6 +410,28 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* HexFiend_2_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexFiend_2_Prefix.pch; path = app/sources/HexFiend_2_Prefix.pch; sourceTree = "<group>"; };
+		3DFE87E0227B2A5A00E7EE04 /* HFYamlDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFYamlDecoder.h; sourceTree = "<group>"; };
+		3DFE87E1227B2A5A00E7EE04 /* HFYamlDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFYamlDecoder.m; sourceTree = "<group>"; };
+		3DFE87E3227B2B5600E7EE04 /* yaml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yaml.h; sourceTree = "<group>"; };
+		3DFE87E4227B3AF500E7EE04 /* yaml.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; path = yaml.yaml; sourceTree = "<group>"; };
+		3DFE87E6227B555500E7EE04 /* HFKsyObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKsyObject.h; sourceTree = "<group>"; };
+		3DFE87E7227B555500E7EE04 /* HFKsyObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKsyObject.m; sourceTree = "<group>"; };
+		3DFE87E9227B55DF00E7EE04 /* HFKsyUserDefinedType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKsyUserDefinedType.h; sourceTree = "<group>"; };
+		3DFE87EA227B55DF00E7EE04 /* HFKsyUserDefinedType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKsyUserDefinedType.m; sourceTree = "<group>"; };
+		3DFE87EC227B56C500E7EE04 /* HFKsyAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKsyAttribute.h; sourceTree = "<group>"; };
+		3DFE87ED227B56C500E7EE04 /* HFKsyAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKsyAttribute.m; sourceTree = "<group>"; };
+		3DFE87EF227B56F600E7EE04 /* HFKsyInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKsyInstance.h; sourceTree = "<group>"; };
+		3DFE87F0227B56F600E7EE04 /* HFKsyInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKsyInstance.m; sourceTree = "<group>"; };
+		3DFE87F2227B56FF00E7EE04 /* HFKsyEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKsyEnum.h; sourceTree = "<group>"; };
+		3DFE87F3227B56FF00E7EE04 /* HFKsyEnum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKsyEnum.m; sourceTree = "<group>"; };
+		3DFE87F5227B573300E7EE04 /* HFKsyMeta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKsyMeta.h; sourceTree = "<group>"; };
+		3DFE87F6227B573300E7EE04 /* HFKsyMeta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKsyMeta.m; sourceTree = "<group>"; };
+		3DFE87F8227B589700E7EE04 /* HFKaitaiExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKaitaiExpression.h; sourceTree = "<group>"; };
+		3DFE87F9227B589700E7EE04 /* HFKaitaiExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKaitaiExpression.m; sourceTree = "<group>"; };
+		3DFE87FB227B598F00E7EE04 /* HFKsyDocumentable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKsyDocumentable.h; sourceTree = "<group>"; };
+		3DFE87FC227B598F00E7EE04 /* HFKsyDocumentable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKsyDocumentable.m; sourceTree = "<group>"; };
+		3DFE87FF227B688200E7EE04 /* HFKaitaiTemplateController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFKaitaiTemplateController.h; sourceTree = "<group>"; };
+		3DFE8800227B688200E7EE04 /* HFKaitaiTemplateController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFKaitaiTemplateController.m; sourceTree = "<group>"; };
 		795F46BF14BAA45D00EB2F7D /* OpenDriveWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenDriveWindowController.h; path = app/sources/OpenDriveWindowController.h; sourceTree = "<group>"; };
 		795F46C014BAA45D00EB2F7D /* OpenDriveWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenDriveWindowController.m; path = app/sources/OpenDriveWindowController.m; sourceTree = "<group>"; };
 		795F46C214BAADB600EB2F7D /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = System/Library/Frameworks/DiskArbitration.framework; sourceTree = SDKROOT; };
@@ -809,6 +842,54 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3DFE87DE227B2A0B00E7EE04 /* Tcl */ = {
+			isa = PBXGroup;
+			children = (
+				A59BC5902001FB9A0066860F /* HFTclTemplateController.h */,
+				A59BC5912001FB9A0066860F /* HFTclTemplateController.m */,
+				A5628AAA21D8561C00911ABB /* Tcl_ParseArgsObjv.h */,
+				A5628AA921D8561C00911ABB /* Tcl_ParseArgsObjv.c */,
+			);
+			name = Tcl;
+			sourceTree = "<group>";
+		};
+		3DFE87DF227B2A2900E7EE04 /* Kaitai */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE87E3227B2B5600E7EE04 /* yaml.h */,
+				3DFE87E0227B2A5A00E7EE04 /* HFYamlDecoder.h */,
+				3DFE87E1227B2A5A00E7EE04 /* HFYamlDecoder.m */,
+				3DFE87FF227B688200E7EE04 /* HFKaitaiTemplateController.h */,
+				3DFE8800227B688200E7EE04 /* HFKaitaiTemplateController.m */,
+				3DFE87F8227B589700E7EE04 /* HFKaitaiExpression.h */,
+				3DFE87F9227B589700E7EE04 /* HFKaitaiExpression.m */,
+				3DFE87FE227B685100E7EE04 /* Kaitai Struct */,
+				3DFE87E4227B3AF500E7EE04 /* yaml.yaml */,
+			);
+			name = Kaitai;
+			sourceTree = "<group>";
+		};
+		3DFE87FE227B685100E7EE04 /* Kaitai Struct */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE87E6227B555500E7EE04 /* HFKsyObject.h */,
+				3DFE87E7227B555500E7EE04 /* HFKsyObject.m */,
+				3DFE87FB227B598F00E7EE04 /* HFKsyDocumentable.h */,
+				3DFE87FC227B598F00E7EE04 /* HFKsyDocumentable.m */,
+				3DFE87E9227B55DF00E7EE04 /* HFKsyUserDefinedType.h */,
+				3DFE87EA227B55DF00E7EE04 /* HFKsyUserDefinedType.m */,
+				3DFE87EC227B56C500E7EE04 /* HFKsyAttribute.h */,
+				3DFE87ED227B56C500E7EE04 /* HFKsyAttribute.m */,
+				3DFE87EF227B56F600E7EE04 /* HFKsyInstance.h */,
+				3DFE87F0227B56F600E7EE04 /* HFKsyInstance.m */,
+				3DFE87F2227B56FF00E7EE04 /* HFKsyEnum.h */,
+				3DFE87F3227B56FF00E7EE04 /* HFKsyEnum.m */,
+				3DFE87F5227B573300E7EE04 /* HFKsyMeta.h */,
+				3DFE87F6227B573300E7EE04 /* HFKsyMeta.m */,
+			);
+			name = "Kaitai Struct";
+			sourceTree = "<group>";
+		};
 		9408FBFC19DD72DE004F800E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -893,14 +974,12 @@
 				A59BC5702001AB8C0066860F /* HFBinaryTemplateRepresenter.m */,
 				A59BC59D2002E63C0066860F /* HFTemplateController.h */,
 				A59BC59E2002E63C0066860F /* HFTemplateController.m */,
-				A59BC5902001FB9A0066860F /* HFTclTemplateController.h */,
-				A59BC5912001FB9A0066860F /* HFTclTemplateController.m */,
 				A59BC59520020B480066860F /* HFBinaryTemplateController.h */,
 				A59BC59620020B480066860F /* HFBinaryTemplateController.m */,
 				A59BC59A2002113F0066860F /* HFTemplateNode.h */,
 				A59BC59B2002113F0066860F /* HFTemplateNode.m */,
-				A5628AAA21D8561C00911ABB /* Tcl_ParseArgsObjv.h */,
-				A5628AA921D8561C00911ABB /* Tcl_ParseArgsObjv.c */,
+				3DFE87DF227B2A2900E7EE04 /* Kaitai */,
+				3DFE87DE227B2A0B00E7EE04 /* Tcl */,
 			);
 			name = "Binary Templates";
 			sourceTree = "<group>";
@@ -1618,6 +1697,7 @@
 				A5589ACC2206D238000293A4 /* OpenAccessoryView.xib in Resources */,
 				A57F34891F1EFA9600234B94 /* OpenDriveDialog.xib in Resources */,
 				D8C1F92C16F278BA00A4C36E /* DiffRangeDialog.xib in Resources */,
+				3DFE87E5227B3AF500E7EE04 /* yaml.yaml in Resources */,
 				A57F34801F1EF47700234B94 /* Preferences.xib in Resources */,
 				79E2FF201745A2B300FA8F12 /* dsa_pub.pem in Resources */,
 			);
@@ -1724,6 +1804,7 @@
 				D01E7C160CDC58AA00943F9E /* BaseDataDocument.m in Sources */,
 				A591313D21E3090300685B51 /* DataInspectorPlusMinusButtonCell.m in Sources */,
 				A59BC5712001AB8C0066860F /* HFBinaryTemplateRepresenter.m in Sources */,
+				3DFE8801227B688200E7EE04 /* HFKaitaiTemplateController.m in Sources */,
 				D00122E30D48A8D400540B10 /* HFFindReplaceBackgroundView.m in Sources */,
 				D01772F50D751DB1002E03DE /* HFDocumentOperationView.m in Sources */,
 				D01773920D7A2F32002E03DE /* HFResizingView.m in Sources */,
@@ -1731,13 +1812,19 @@
 				D03CFA8A0FC78BCD00EE79E4 /* DataInspectorRepresenter.m in Sources */,
 				D02BD6E010545E9000535EDE /* FileDataDocument.m in Sources */,
 				A59BC59C2002113F0066860F /* HFTemplateNode.m in Sources */,
+				3DFE87FD227B598F00E7EE04 /* HFKsyDocumentable.m in Sources */,
 				A59BC59F2002E63C0066860F /* HFTemplateController.m in Sources */,
+				3DFE87F4227B56FF00E7EE04 /* HFKsyEnum.m in Sources */,
 				D018F153107ABAC600AE805F /* DiffDocument.m in Sources */,
 				A591313A21E3079400685B51 /* DataInspector.m in Sources */,
+				3DFE87E8227B555500E7EE04 /* HFKsyObject.m in Sources */,
 				D074B0D5115B2075002D5FA8 /* DiffDocumentWindow.m in Sources */,
+				3DFE87F7227B573300E7EE04 /* HFKsyMeta.m in Sources */,
 				D084E763115DAEAC004DC181 /* DiffOverlayView.m in Sources */,
 				D0AFA786123C2BDF00CFC513 /* MyDocumentController.m in Sources */,
+				3DFE87FA227B589700E7EE04 /* HFKaitaiExpression.m in Sources */,
 				D0CBB240128F78C200989C15 /* StretchableProgressIndicator.m in Sources */,
+				3DFE87E2227B2A5A00E7EE04 /* HFYamlDecoder.m in Sources */,
 				A591314021E3098800685B51 /* DataInspectorScrollView.m in Sources */,
 				A5589AC92206CFCC000293A4 /* HFExtendedAttributes.m in Sources */,
 				D0CBB32A128F906000989C15 /* DiffTextViewContainer.m in Sources */,
@@ -1750,9 +1837,12 @@
 				D01EF15413B2A0D300CC9283 /* TextDividerRepresenter.m in Sources */,
 				A5589AD22206E1C4000293A4 /* ExtendedAttributeDataDocument.m in Sources */,
 				D0A8AF7D1467273900387627 /* AppUtilities.m in Sources */,
+				3DFE87EB227B55DF00E7EE04 /* HFKsyUserDefinedType.m in Sources */,
 				D0D0536E1487FF2500704643 /* HFFindReplaceOperationView.m in Sources */,
 				A59BC59820020B480066860F /* HFBinaryTemplateController.m in Sources */,
 				795F46C114BAA45D00EB2F7D /* OpenDriveWindowController.m in Sources */,
+				3DFE87F1227B56F700E7EE04 /* HFKsyInstance.m in Sources */,
+				3DFE87EE227B56C500E7EE04 /* HFKsyAttribute.m in Sources */,
 				DAE8EBFE1598FFDB0008ADB9 /* DocumentWindow.m in Sources */,
 				D8EE3EFE16F26689001C7C09 /* DiffRangeWindowController.m in Sources */,
 				A572614A21D8A51B00970A0E /* HFPrompt.m in Sources */,
